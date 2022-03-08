@@ -17,6 +17,7 @@ int main()
     char op;
     cin >> sum;
     if (cin.peek() == '^')
+    //peek() retrieves next character
     {
         sum = sum * sum;
         cin.ignore();
